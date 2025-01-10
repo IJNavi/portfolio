@@ -1,27 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Projeto Portfólio">
-        <meta name="author" content="Ivan Barbosa">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
-        <title>Meu Perfil</title>
-    </head>
-    <body>
-    		<!-- Cabeçalho da Página (header) -->
+	<head>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Projeto Portfólio">
+		<meta name="author" content="Generation Brasil">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+
+        <link rel="icon" type="image/svg" href="./assets/img/favicon.svg">
+
+        <!-- Link para a Folha de Estilo da Página - CSS -->
+		<link rel="stylesheet" href="./assets/css/style.css">
+
+		<title>Meu Perfil</title>
+	</head>
+	<body>
+		<!-- Cabeçalho da Página (header) -->
 		<header>
-            
-        </header>
+			<!-- Div Conteudo do Cabeçalho -->
+			<div id="header_content">
+				<!-- Titulo do Cabeçalho -->
+				<div id="titulo">
+					<!-- Seu nome -->
+					<h1>Ivan Barbosa</h1>
+				</div>
+
+				<!-- Conteudo do Menu da Página (header) -->
+				<div id="menu">
+					<!-- Menu da Página -->
+					<nav>
+						<!-- Marcadores não ordenados + links -->
+						<ul id="menu">
+							<li>
+								<a href="index.html"> Home </a>
+							</li>
+							<li>
+								<a href="contato.html"> Contato </a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
 
 		<!-- Seção Principal da Página (main) -->
 		<main>
 
-        </main>
+			<!-- Seção Sobre você -->
+			<section id="about">
+
+				<!-- Título da Seção -->
+				<h2>Sobre mim!</h2>
+
+				<!-- Conteúdo da Seção -->
+				<div id="conteudo">
+
+					<!-- Imagem do criador do conteúdo -->
+					<img
+						src="./assets/img/ivan.jpg"
+						alt="Foto do criador desse conteudo"
+					/>
+
+					<!-- Texto sobre o criador do conteúdo -->
+					<article id="sobre_texto">
+						<p>
+							Desde criança, sempre fui fascinado por tecnologia. Filmes como O Exterminador do Futuro e os inventos geniais da Bulma em Dragon Ball 
+                           <br> despertaram minha curiosidade pelo funcionamento das coisas. Essa paixão me levou a desmontar brinquedos quebrados, criar engenhocas 
+                           <br> (como uma retroescavadeira usando seringas hidráulicas!) e, eventualmente, me aprofundar no mundo da tecnologia. 
+                           <br> Minha trajetória me levou do ensino médio técnico na FAETEC à Engenharia na UFRJ, mas foi a experiência com a equipe de Fórmula SAE 
+                           <br> Minerva E-Racing e as aulas de computação que mudaram tudo. Decidi seguir um novo caminho, ingressando no curso de Sistemas de Computação
+                           <br> na UFF, onde mergulhei de vez no desenvolvimento de software. Hoje, estou trilhando minha jornada como desenvolvedor backend com foco em 
+                           <br> Java. No Bootcamp Generation Brasil, estou aprimorando minhas habilidades técnicas e aprendendo na prática, com projetos de APIs REST, 
+                           <br> metodologias ágeis (SCRUM), e tecnologias como Spring Boot, Docker e Swagger. Além disso, estou explorando análise de dados (Google/Coursera)
+                           <br> e desenvolvimento web moderno (JavaScript/Udemy), porque acredito que o aprendizado contínuo é essencial em tecnologia. O que mais me motiva 
+                           <br> é a capacidade de transformar ideias em soluções práticas. Mal posso esperar para aplicar essas habilidades em projetos desafiadores e ver 
+                           <br> até onde a tecnologia pode me levar! Vamos construir algo incrível juntos? 🚀
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<!-- Seção contendo um vídeo de sua preferência -->
+			<section id="video">
+				
+				<!-- Título da Seção -->
+				<h2>Meu vídeo favorito:</h2>
+
+				<!-- Vídeo da Seção -->
+				<div class="youtube">
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/jF9_7OWogIE?si=sVqiE_t5Ze5RMM-p"
+						frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+
+			</section>
+
+		</main>
 
 		<!-- Rodapé da Página (footer) -->
 		<footer>
 
-    </body>
+			<!-- Seção de Contato - Redes Sociais-->
+            <section id="redes_sociais">
+
+                    <a href="https://www.linkedin.com/in/ivanj%C3%BAlio/">
+                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                    </a>
+					<a href="https://github.com/IJNavi">
+                        <img src="assets/img/github.svg" alt="Github" />
+                    </a>
+					<a href="https://www.instagram.com/coockolokko?igsh=MWZra2Rkc2o2cnZuMg==">
+                        <img src="assets/img/instagram.svg" alt="Instagram" />
+                    </a>
+
+            </section>
+
+			<h3>
+                Feito com 💪 por Ivan Barbosa - 01/2025
+			</h3>
+
+		</footer>
+	</body>
 </html>
